@@ -33,7 +33,8 @@ const createTransaction = async (req, res) => {
 
     res.json({
       status: 200,
-      msg: `Transaction created successfully ${trxID}`,
+      trxID,
+      msg: `Transaction created successfully`,
     });
   } catch (error) {
     return res.json({

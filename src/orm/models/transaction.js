@@ -2,10 +2,6 @@ module.exports = (sequelize, DataTypes) => {
   const Transaction = sequelize.define(
     "transactions",
     {
-      id: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-      },
       sar_amount: {
         type: DataTypes.DOUBLE,
       },

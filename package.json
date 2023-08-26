@@ -5,12 +5,12 @@
   "main": "server.js",
   "scripts": {
     "watch": "nodemon --config config/nodemon.config.json start src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "bootstrap": "npm install && npx sequelize db:migrate"
   },
   "author": "Saidul Amin",
   "license": "MIT",
   "dependencies": {
-    "@everapi/freecurrencyapi-js": "^1.0.1",
     "body-parser": "^1.20.2",
     "config": "^3.3.9",
     "cors": "^2.8.5",

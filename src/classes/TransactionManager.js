@@ -14,7 +14,8 @@ class TransactionManager {
 
   async getTransaction(trxId) {
     const result = await Transaction.findOne({
-      createdAt: { id: trxId },
+      where: { id: trxId },
+      attributes: ["id", "sar_amount", "usd_amount", "createdAt"],
     });
     return result;
   }

@@ -16,10 +16,10 @@ Transaction can be created in SAR currency but there will be an currency convers
     - Run Mysql Server on PORT 3306 in your local machine
     - Create a database named db_airwrk
     - Go into the src/orm/config/config.json and give the development database credentials
-    - Now go into the root directory and run npm run bootstrap
-    - This will install all the dependencies and create the tables onto the database db_airwrk
-    - Now either run npm run watch to start with nodemon
-    - Or run npm start to run without nodemon
+    - Now go into the root directory and run **npm run bootstrap**
+    - This will install all the dependencies and create the tables onto the database **db_airwrk**
+    - Now either run **npm run watch** to start with nodemon
+    - Or run **npm start** to run without nodemon
 
 ### Route transaction:
 

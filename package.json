@@ -6,7 +6,8 @@
   "scripts": {
     "watch": "nodemon --config config/nodemon.config.json start src/server.js",
     "start": "node src/server.js",
-    "bootstrap": "npm install && npx sequelize db:migrate"
+    "bootstrap": "npm install && npm run migrate",
+    "migrate": "cd src/orm && npx sequelize db:migrate"
   },
   "author": "Saidul Amin",
   "license": "MIT",

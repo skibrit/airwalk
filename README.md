@@ -1,6 +1,6 @@
 # Financial Microservice
 
-it's a simple test service that has two basic router. transaction & analytics. A transaction can be created and retrieved from the transaction route.
+it's a simple micro service that has two basic router. transaction & analytics. A transaction can be created and retrieved from the transaction route.
 analytics route can return the reports of the transaction.
 
 Transaction can be created in SAR currency but there will be an currency conversion happen to USD while creating the transaction.
